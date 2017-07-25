@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-25T12:48:58+08:00</updated><id>http://localhost:4000/</id><title type="html">Wandering</title><subtitle>© 2017 Baturu. All rights reserved.</subtitle><author><name>Baturu</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-07-24T23:14:44+08:00</published><updated>2017-07-24T23:14:44+08:00</updated><id>http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-25T16:04:31+08:00</updated><id>http://localhost:4000/</id><title type="html">Wandering</title><subtitle>© 2017 Baturu. All rights reserved.</subtitle><author><name>Baturu</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-07-24T23:14:44+08:00</published><updated>2017-07-24T23:14:44+08:00</updated><id>http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -10,4 +10,37 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baturu</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baturu</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">【旧博搬运】（一）“国防七子”简介</title><link href="http://localhost:4000/baike/2015/02/02/guofangqizi.html" rel="alternate" type="text/html" title="【旧博搬运】（一）“国防七子”简介" /><published>2015-02-02T21:41:18+08:00</published><updated>2015-02-02T21:41:18+08:00</updated><id>http://localhost:4000/baike/2015/02/02/guofangqizi</id><content type="html" xml:base="http://localhost:4000/baike/2015/02/02/guofangqizi.html">&lt;p&gt;  1952年，中共中央指定北京工业学院（北京理工大学）、哈尔滨工业大学、北京航空学院（北京航空航天大学）、上海交通大学四所大学为国防院校。&lt;/p&gt;
+
+&lt;p&gt;  50年代后期，国防院校改名为国防科委院校。先后又有西北工大、成都电讯、南航加入到国防院校的行列，至1963年我国共有八所国防科委院校：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 哈尔滨工业大学（航空、航天）
+2. 北京理工大学（导弹 &amp;amp; 坦克）
+3. 北京航空航天大学（飞机 &amp;amp; 导弹）
+4. 上海交通大学（船舶&amp;amp;火车）
+5. 西北工业大学（飞机&amp;amp;导弹 &amp;amp; 船舶）
+6. 成都电讯工程学院（电子）
+7. 南京航空航天大学（飞机）
+8. 太原机械学院（兵器）
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;  1966年，国防科委院校在上述八大院校的基础上又增加了哈尔滨军事工程学院（哈军工）、西军电（西电）、南炮工（南京理工）。&lt;/p&gt;
+
+&lt;p&gt;  70年代初国防科委院校解散，哈工大分配到七机部（航天部）。哈军工解体为国防科技大学和哈尔滨工程大学分别划归中央军委和六机部（船舶部）。上海交大分配到六机部（船舶部），后来又转到教育部。北航、西工大、南航归到三机部（航空部）。北理工、南理工归到五机部（兵器部）。电子科大（成都电讯）、西安电子科大（西军电）被分到四机部（电子部），后来又归到信息产业部。&lt;/p&gt;
+
+&lt;p&gt;  1996年，恢复国防科工委院校，只有七所：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.哈尔滨工业大学（航天）
+2.哈尔滨工程大学（航海、核能）
+3.北京航空航天大学（航空、航天）
+4.北京理工大学（兵器）
+5.西北工业大学（航空、航天、航海）
+6.南京理工大学（兵器）
+7.南京航空航天大学（航空）       
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;  该七所国防科工委院校全是211工程大学，其中哈工大、北理工、北航、西工大、哈工程是1996年8月前首批27所通过211工程立项审核的大学。1999年哈工大、北理工、北航、西工大陆续进入教育部985工程大学，哈工程、南理工、南航由国防科工委全额资助，按985工程标准建设。&lt;/p&gt;
+
+&lt;p&gt;  * 本文内容均由网上搜集而来。&lt;/p&gt;</content><author><name>Baturu</name></author><summary type="html">  1952年，中共中央指定北京工业学院（北京理工大学）、哈尔滨工业大学、北京航空学院（北京航空航天大学）、上海交通大学四所大学为国防院校。</summary></entry></feed>
