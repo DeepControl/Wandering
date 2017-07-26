@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-25T16:04:31+08:00</updated><id>http://localhost:4000/</id><title type="html">Wandering</title><subtitle>© 2017 Baturu. All rights reserved.</subtitle><author><name>Baturu</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-07-24T23:14:44+08:00</published><updated>2017-07-24T23:14:44+08:00</updated><id>http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wandering</title>
+    <description>© 2017 Baturu. All rights reserved.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 26 Jul 2017 22:04:13 +0800</pubDate>
+    <lastBuildDate>Wed, 26 Jul 2017 22:04:13 +0800</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -10,7 +23,220 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baturu</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">【旧博搬运】（一）“国防七子”简介</title><link href="http://localhost:4000/baike/2015/02/02/guofangqizi.html" rel="alternate" type="text/html" title="【旧博搬运】（一）“国防七子”简介" /><published>2015-02-02T21:41:18+08:00</published><updated>2015-02-02T21:41:18+08:00</updated><id>http://localhost:4000/baike/2015/02/02/guofangqizi</id><content type="html" xml:base="http://localhost:4000/baike/2015/02/02/guofangqizi.html">&lt;p&gt;  1952年，中共中央指定北京工业学院（北京理工大学）、哈尔滨工业大学、北京航空学院（北京航空航天大学）、上海交通大学四所大学为国防院校。&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 24 Jul 2017 23:14:44 +0800</pubDate>
+        <link>http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/07/24/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Linux开机后自动发送邮件的一种方案</title>
+        <description>&lt;p&gt;&lt;strong&gt;1. 方案背景&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;  博主在Raspberry上安装的Fedora Server，由于树莓派的网线连在交换机上，ip无法固定，给远程ssh登录造成了麻烦。初步考虑方案一采用花生壳动态域名解析，方案二采用每次开机发送DHCP获得的ip到指定邮箱。莫名对方案二一见倾心，所以写了一下实现过程。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 环境描述​&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Fedora Server 26 for Raspberry Pi 3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Xshell&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;wo.cn沃邮箱&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 实现过程&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install mailx sendmail #安装mailx和sendmail服务
+$ sudo service sendmail start #启动服务
+$ netstat -ant #查看25端口是否在侦听
+$ whereis mail.rc #查找sendmail的配置文件
+vi /etc/mail.rc #添加如下五条后保存并重启sendmail服务
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;set from=沃邮箱@wo.cn
+set smtp=smtp.wo.cn
+set smtp-auth-user=沃邮箱@wo.cn
+set smtp-auth-password=沃邮箱密码
+set smtp-auth=login
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo vi /root/ifconfigmail.sh #创建发邮件脚本
+写入以下内容后保存
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+sendmail -t &amp;gt;/dev/null 2&amp;gt;&amp;amp;1 &lt;span class=&quot;sh&quot;&gt;&amp;lt;&amp;lt;EOF
+to:指定的目标邮箱@hotmail.com
+from:沃邮箱@wo.cn
+subject:Your Raspberry restarted on $(date '+%Y-%m-%d')
+IP may changed.
+ipv4  $(ifconfig eth0 | awk '/inet /{gsub(//,&quot;&quot;);print $2}')
+ipv6  $(ifconfig eth0 | awk '/inet6 /{gsub(//,&quot;&quot;);print $2}')
+From Raspberry at $(date '+%Y-%m-%d %H:%M:%S')
+EOF
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo chmod 777 /root/ifconfigmail.sh #加可执行权限
+$ sudo sh /root/ifconfigmail.sh #测试脚本能否正常发出邮件
+$ sudo vi /etc/rc.d/rc.local #编辑开机启动脚本
+添加以下内容后保存
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+sleep 3m &lt;span class=&quot;c&quot;&gt;#延迟3分可以确保IP准确&lt;/span&gt;
+sh /root/ifconfigmail.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo chmod +x /etc/rc.d/rc.local #加可执行权限
+$ sudo vi /usr/lib/systemd/system/rc-local.service
+编辑开机启动，末尾添加如下一条
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Install]
+WantedBy=multi-user.target
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;systemctl enable rc-local.service #开启开机自启动服务
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;  &lt;strong&gt;* 全文难免有叙述不当之处，见谅。&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Apr 2017 21:39:40 +0800</pubDate>
+        <link>http://localhost:4000/linux/2017/04/14/how-to-send-mail-in-Linux.html</link>
+        <guid isPermaLink="true">http://localhost:4000/linux/2017/04/14/how-to-send-mail-in-Linux.html</guid>
+        
+        
+        <category>Linux</category>
+        
+      </item>
+    
+      <item>
+        <title>Fedora入门命令（更新至2015.09.26）</title>
+        <description>&lt;p&gt;&lt;strong&gt;1. 添加sudo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.deepcontrol.info/linux/2015/05/14/how-to-use-sudo-in-fedora.html&quot;&gt;上篇日志&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 系统更新&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf update #或者dnf update
+$ sudo reboot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 删除旧内核&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ uname -r​ #查看正在使用的内核
+$ rpm -qa | grep kernel #查找内核包
+$ sudo dnf remove #remove后列出旧内核名称
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 安装gnome shell&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install gnome-tweak-tool
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;5. 安装其他桌面&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install @mate-desktop #Mate桌面环境
+$ sudo dnf install @kde-desktop #KDE桌面环境
+$ sudo dnf install @xfce-desktop #XFCE桌面环境
+$ sudo dnf install @lxde-desktop #LXDE桌面环境
+$ sudo dnf install @cinnamon-desktop #Cinnamon桌面环境
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;6. 安装第三方源rpmfusion和VLC播放器&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+$ sudo dnf install vlc
+$ sudo dnf install mozilla-vlc (optional)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;7. 安装谷歌chrome&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;8. dnf启动断点续传&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ man dnf.conf
+用vi命令在dnf.conf里写入keepcache=true​
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;9. 安装flash&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo rpm -ivh http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm
+$ sudo rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
+$ ​sudo dnf -y install flash-plugin
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;10. 安装LibreOffice中文语言包&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf -y install  libreoffice-langpack-zh-Han*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;11. Fedora下临时挂载ntfs分区&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo mount -t ntfs /dev/sda* /mnt/FileName
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;  &lt;strong&gt;* 本文内容均由网上搜集而来。&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 14 May 2015 18:52:27 +0800</pubDate>
+        <link>http://localhost:4000/linux/2015/05/14/fedora-commands.html</link>
+        <guid isPermaLink="true">http://localhost:4000/linux/2015/05/14/fedora-commands.html</guid>
+        
+        
+        <category>Linux</category>
+        
+      </item>
+    
+      <item>
+        <title>Fedora中允许普通用户使用sudo命令</title>
+        <description>&lt;p&gt;&lt;strong&gt;1. sudo的特性&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;  使用&lt;code class=&quot;highlighter-rouge&quot;&gt;su&lt;/code&gt;切换到root后权限没有限制，并不适合多人共管的服务器。&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt;却可以针对每个人的不同工作内容做出权限上的约定。对于远程服务器的管理，禁止root用户通过ssh访问转而以普通用户身份通过&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt;访问和管理也可以有效提高远程主机安全性。​使用&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt;，当前用户切换到root权限执行命令，执行完成后超时即会退回普通用户权限，也不需要普通用户知道root密码，这也在一定程度上提高了安全性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 普通用户添加sudo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ su #切换到root用户
+# ll /etc/sudoers #查看读写权限
+# chmod 777 /etc/sudoers #修改权限
+# vi /etc/sudoers #编辑文件
+光标找到root    ALL=(ALL)    ALL这一行，
+按a，进入append模式，
+添加username    ALL=(ALL)    ALL这一行，
+按Esc，再输入:wq保存文件并退出​。
+# chmod 440 /etc/sudoers​ #恢复权限
+# exit #退出root
+$ sudo whoami #查看结果
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;  &lt;strong&gt;* 本文内容均由网上搜集而来。&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 May 2015 16:45:52 +0800</pubDate>
+        <link>http://localhost:4000/linux/2015/05/14/how-to-use-sudo-in-fedora.html</link>
+        <guid isPermaLink="true">http://localhost:4000/linux/2015/05/14/how-to-use-sudo-in-fedora.html</guid>
+        
+        
+        <category>Linux</category>
+        
+      </item>
+    
+      <item>
+        <title>“国防七子”简介</title>
+        <description>&lt;p&gt;  1952年，中共中央指定北京工业学院（北京理工大学）、哈尔滨工业大学、北京航空学院（北京航空航天大学）、上海交通大学四所大学为国防院校。&lt;/p&gt;
 
 &lt;p&gt;  50年代后期，国防院校改名为国防科委院校。先后又有西北工大、成都电讯、南航加入到国防院校的行列，至1963年我国共有八所国防科委院校：&lt;/p&gt;
 
@@ -43,4 +269,16 @@
 
 &lt;p&gt;  该七所国防科工委院校全是211工程大学，其中哈工大、北理工、北航、西工大、哈工程是1996年8月前首批27所通过211工程立项审核的大学。1999年哈工大、北理工、北航、西工大陆续进入教育部985工程大学，哈工程、南理工、南航由国防科工委全额资助，按985工程标准建设。&lt;/p&gt;
 
-&lt;p&gt;  * 本文内容均由网上搜集而来。&lt;/p&gt;</content><author><name>Baturu</name></author><summary type="html">  1952年，中共中央指定北京工业学院（北京理工大学）、哈尔滨工业大学、北京航空学院（北京航空航天大学）、上海交通大学四所大学为国防院校。</summary></entry></feed>
+&lt;p&gt;  &lt;strong&gt;* 本文内容均由网上搜集而来。&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Feb 2015 21:41:18 +0800</pubDate>
+        <link>http://localhost:4000/baike/2015/02/02/guofangqizi.html</link>
+        <guid isPermaLink="true">http://localhost:4000/baike/2015/02/02/guofangqizi.html</guid>
+        
+        
+        <category>Baike</category>
+        
+      </item>
+    
+  </channel>
+</rss>
