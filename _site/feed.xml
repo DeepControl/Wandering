@@ -5,9 +5,49 @@
     <description>© 2017 Baturu. All rights reserved.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 31 Jul 2017 21:47:47 +0800</pubDate>
-    <lastBuildDate>Mon, 31 Jul 2017 21:47:47 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Aug 2017 19:35:30 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Aug 2017 19:35:30 +0800</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>文章排版知识</title>
+        <description>
+</description>
+        <pubDate>Fri, 11 Aug 2017 10:55:55 +0800</pubDate>
+        <link>http://localhost:4000/design/2017/08/11/article-layout.html</link>
+        <guid isPermaLink="true">http://localhost:4000/design/2017/08/11/article-layout.html</guid>
+        
+        
+        <category>Design</category>
+        
+      </item>
+    
+      <item>
+        <title>装修设计入门</title>
+        <description>&lt;h3 id=&quot;装修设计入门&quot;&gt;装修设计入门&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;本文目录
+一、什么是装修设计？
+二、如何入门？
+    1.需要准备哪些东西？
+    2.如何完成第一件设计作品？
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;一什么是装修设计&quot;&gt;一、什么是装修设计？&lt;/h4&gt;
+&lt;h4 id=&quot;二如何入门&quot;&gt;二、如何入门？&lt;/h4&gt;
+
+&lt;p&gt;  1.需要准备哪些东西？&lt;/p&gt;
+
+&lt;p&gt;  2.如何完成第一件设计作品？&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Aug 2017 08:55:55 +0800</pubDate>
+        <link>http://localhost:4000/design/2017/08/11/decoration-design.html</link>
+        <guid isPermaLink="true">http://localhost:4000/design/2017/08/11/decoration-design.html</guid>
+        
+        
+        <category>Design</category>
+        
+      </item>
     
       <item>
         <title>一些电影清单</title>
