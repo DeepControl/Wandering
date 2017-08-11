@@ -1,8 +1,9 @@
 # Wandering
 
 ###
-- A blog with notes and thoughts.
+- A [blog][] with notes and thoughts.
 
 ###
 - Based on jekyll and github pages.
 
+[blog]: http://blog.deepcontrol.info/
