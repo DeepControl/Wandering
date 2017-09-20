@@ -79,11 +79,11 @@ $ sudo mount -t ntfs /dev/sda* /mnt/FileName
 
 　`FedoraProject Wiki中提供的方法:`[DNF_system_upgrade](http://fedoraproject.org/wiki/DNF_system_upgrade)
 
-**3.Ｍarkdown输入空格**
+**14.Ｍarkdown输入空格**
 
 　`&emsp;`或者`&nbsp;`或者`全角空格`
 
-**4.键盘按键的英文名**
+**15.键盘按键的英文名**
 
 ```
 　逗号：comma
@@ -91,7 +91,7 @@ $ sudo mount -t ntfs /dev/sda* /mnt/FileName
 　减号：minus
 　等号：equal
 ```
-**5.Fedora添加全局快捷键**
+**16.Fedora添加全局快捷键**
 
 设置--->键盘--->下拉到最后--->添加自定义快捷键，填写诸如:
 
@@ -109,13 +109,13 @@ $ sudo mount -t ntfs /dev/sda* /mnt/FileName
 
 > 你想设置的快捷键
 
-**6.查看终端命令记录history**
+**17.查看终端命令记录history**
 
 `$ history`
 
 其中history文件存放在~/.bash_history
 
-**7.终端常用命令和快捷键**
+**18.终端常用命令和快捷键**
 
 ```
 1.$ tty #查看当前所在终端
@@ -130,7 +130,7 @@ $ sudo mount -t ntfs /dev/sda* /mnt/FileName
 
 ```
 
-**8.Fedora修改hostname主机名**
+**19.Fedora修改hostname主机名**
 
 ```
 $ hostname
@@ -142,13 +142,13 @@ $ echo $HOSTNAME #打印系统环境变量，重启后就会变成新主机名�
 oldhostname
 $ sudo hostnamectl set-hostname newhostname #另一种修改主机名方式
 ```
-**9.从图形界面切换到字符界面**
+**20.从图形界面切换到字符界面**
 
 ```
 $ sudo systemctl isolate runlevel3
 ```
 
-**10.Fedora安装sublime-text (ST暂不支持中文输入)**
+**21.Fedora安装sublime-text (ST暂不支持中文输入)**
 
 > Install the GPG key:
 
@@ -168,7 +168,7 @@ $ sudo systemctl isolate runlevel3
 
 >     sudo dnf install sublime-text
 
-**11.Fedora使用ss-qt5**
+**22.Fedora使用ss-qt5**
 
 ```
 $ sudo dnf install shadowsocks-qt5 #安装后添加信息
