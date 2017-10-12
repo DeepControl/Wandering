@@ -18,6 +18,9 @@ Baturu，Living in Tianjin.
 [新浪微博][] - [网易云音乐][] - [Github][]
 
 
+![Speedtest](http://beta.speedtest.net/result/6700445401.png "Speedtest")
+
+
 [新浪微博]: https://weibo.com/GhostPioneer
 [网易云音乐]: https://music.163.com/#/user/home?id=60625289
 [Github]: https://github.com/DeepControl/Wandering
