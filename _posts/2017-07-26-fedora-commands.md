@@ -1,13 +1,16 @@
 ---
 layout: post
-title: Fedora入门命令（更新至2017-09-19）
+title: Fedora入门命令（更新至2017-10-18）
 date: 2015-05-14 18:52:27 +08:00
 categories: Linux
 ---
 
-------------------------------
-------------------------------
-> **以下2015-09-26更新，新版本Fedora不一定继续适用**
+**0. 目录及说明**
+
+    新版本Fedora不一定继续适用
+    2015-09-26 更新1-11
+    2017-09-19 更新12-22
+    2017-10-18 更新23
 
 **1. 添加sudo**
 
@@ -69,21 +72,21 @@ $ sudo mount -t ntfs /dev/sda* /mnt/FileName
 
 ------------------------------
 ------------------------------
-> **以下2017-09-19更新，新版本Fedora不一定继续适用**
+<br/>
 
-**12.安装Remmina远程桌面**
+**12. 安装Remmina远程桌面**
 
 　`$ sudo dnf install remmina #控制Windows等主机，支持多种协议`
 
-**13.升级Fedora到高版本**
+**13. 升级Fedora到高版本**
 
 　`FedoraProject Wiki中提供的方法:`[DNF_system_upgrade](http://fedoraproject.org/wiki/DNF_system_upgrade)
 
-**14.Ｍarkdown输入空格**
+**14. Ｍarkdown输入空格**
 
 　`&emsp;`或者`&nbsp;`或者`全角空格`
 
-**15.键盘按键的英文名**
+**15. 键盘按键的英文名**
 
 ```
 　逗号：comma
@@ -91,7 +94,7 @@ $ sudo mount -t ntfs /dev/sda* /mnt/FileName
 　减号：minus
 　等号：equal
 ```
-**16.Fedora添加全局快捷键**
+**16. Fedora添加全局快捷键**
 
 设置--->键盘--->下拉到最后--->添加自定义快捷键，填写诸如:
 
@@ -109,13 +112,13 @@ $ sudo mount -t ntfs /dev/sda* /mnt/FileName
 
 > 你想设置的快捷键
 
-**17.查看终端命令记录history**
+**17. 查看终端命令记录history**
 
 `$ history`
 
 其中history文件存放在~/.bash_history
 
-**18.终端常用命令和快捷键**
+**18. 终端常用命令和快捷键**
 
 ```
 1.$ tty #查看当前所在终端
@@ -130,7 +133,7 @@ $ sudo mount -t ntfs /dev/sda* /mnt/FileName
 
 ```
 
-**19.Fedora修改hostname主机名**
+**19. Fedora修改hostname主机名**
 
 ```
 $ hostname
@@ -142,13 +145,13 @@ $ echo $HOSTNAME #打印系统环境变量，重启后就会变成新主机名�
 oldhostname
 $ sudo hostnamectl set-hostname newhostname #另一种修改主机名方式
 ```
-**20.从图形界面切换到字符界面**
+**20. 从图形界面切换到字符界面**
 
 ```
 $ sudo systemctl isolate runlevel3
 ```
 
-**21.Fedora安装sublime-text (ST暂不支持中文输入)**
+**21. Fedora安装sublime-text (ST暂不支持中文输入)**
 
 > Install the GPG key:
 
@@ -168,7 +171,7 @@ $ sudo systemctl isolate runlevel3
 
 >     sudo dnf install sublime-text
 
-**22.Fedora使用ss-qt5**
+**22. Fedora使用ss-qt5**
 
 ```
 $ sudo dnf install shadowsocks-qt5 #安装后添加信息
@@ -177,6 +180,18 @@ $ touch user-rules.txt
 $ genpac -p "SOCKS5 127.0.0.1:1080" --gfwlist-proxy="SOCKS5 127.0.0.1:1080" --output="autoproxy.pac" --gfwlist-url="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" --user-rule-from="user-rules.txt"
 # 上条命令中端口和文件信息需要自行修改
 file:///home/(user)/vpnPAC/autoproxy.pac #系统设置和firefox填写文件地址
+```
+
+------------------------------
+------------------------------
+<br/>
+
+**23. Fedora server版本安装使用gnome**
+
+```
+$ sudo dnf -y groupinstall "Fedora Workstation"
+$ sudo echo "exec /usr/bin/gnome-session" >> ~/.xinitrc
+$ sudo startx
 ```
 
 
