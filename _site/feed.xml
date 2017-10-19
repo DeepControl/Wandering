@@ -5,9 +5,9 @@
     <description>© 2017 Baturu. All rights reserved.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Aug 2017 22:12:42 +0800</pubDate>
-    <lastBuildDate>Fri, 11 Aug 2017 22:12:42 +0800</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Thu, 19 Oct 2017 15:11:18 +0800</pubDate>
+    <lastBuildDate>Thu, 19 Oct 2017 15:11:18 +0800</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
     
       <item>
         <title>文章排版知识</title>
@@ -25,13 +25,12 @@
       <item>
         <title>装修设计入门</title>
         <description>&lt;h3 id=&quot;装修设计入门&quot;&gt;装修设计入门&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;本文目录
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;本文目录
 一、什么是装修设计？
 二、如何入门？
     1.需要准备哪些东西？
     2.如何完成第一件设计作品？
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;一什么是装修设计&quot;&gt;一、什么是装修设计？&lt;/h4&gt;
 &lt;h4 id=&quot;二如何入门&quot;&gt;二、如何入门？&lt;/h4&gt;
@@ -52,7 +51,7 @@
       <item>
         <title>一些电影清单</title>
         <description>&lt;h3 id=&quot;一十部女主高能复仇系列&quot;&gt;一、十部女主高能复仇系列&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;清单：
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;清单：
 1. 你是下一个（You're Next）2011
 2. 我唾弃你的坟墓（I Spit on Your Grave）2010
 3. 水果硬糖（Hard Candy）2005
@@ -64,8 +63,7 @@
 9. 复仇（Revanche）2008
 10. 深度入侵（The Aggression Scale）2012
 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;1. &lt;a href=&quot;https://movie.douban.com/subject/6128025/&quot;&gt;你是下一个&lt;/a&gt;（&lt;a href=&quot;http://www.imdb.com/title/tt1853739/&quot;&gt;You’re Next&lt;/a&gt;）+&lt;a href=&quot;http://blog.deepcontrol.info/images/20170731film01.jpg&quot;&gt;海报01&lt;/a&gt;+2011&lt;/strong&gt;&lt;/p&gt;
 
@@ -167,61 +165,52 @@
 
 &lt;p&gt;&lt;strong&gt;3. 实现过程&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install mailx sendmail #安装mailx和sendmail服务
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install mailx sendmail #安装mailx和sendmail服务
 $ sudo service sendmail start #启动服务
 $ netstat -ant #查看25端口是否在侦听
 $ whereis mail.rc #查找sendmail的配置文件
 vi /etc/mail.rc #添加如下五条后保存并重启sendmail服务
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;set from=沃邮箱@wo.cn
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;set from=沃邮箱@wo.cn
 set smtp=smtp.wo.cn
 set smtp-auth-user=沃邮箱@wo.cn
 set smtp-auth-password=沃邮箱密码
 set smtp-auth=login
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo vi /root/ifconfigmail.sh #创建发邮件脚本
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo vi /root/ifconfigmail.sh #创建发邮件脚本
 写入以下内容后保存
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-sendmail -t &amp;gt;/dev/null 2&amp;gt;&amp;amp;1 &lt;span class=&quot;sh&quot;&gt;&amp;lt;&amp;lt;EOF
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+sendmail &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;/dev/null 2&amp;gt;&amp;amp;1 &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
 to:指定的目标邮箱@hotmail.com
 from:沃邮箱@wo.cn
-subject:Your Raspberry restarted on $(date '+%Y-%m-%d')
+subject:Your Raspberry restarted on &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;date &lt;span class=&quot;s1&quot;&gt;'+%Y-%m-%d'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
 IP may changed.
-ipv4  $(ifconfig eth0 | awk '/inet /{gsub(//,&quot;&quot;);print $2}')
-ipv6  $(ifconfig eth0 | awk '/inet6 /{gsub(//,&quot;&quot;);print $2}')
-From Raspberry at $(date '+%Y-%m-%d %H:%M:%S')
-EOF
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo chmod 777 /root/ifconfigmail.sh #加可执行权限
+ipv4  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;ifconfig eth0 | awk &lt;span class=&quot;s1&quot;&gt;'/inet /{gsub(//,&quot;&quot;);print $2}'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+ipv6  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;ifconfig eth0 | awk &lt;span class=&quot;s1&quot;&gt;'/inet6 /{gsub(//,&quot;&quot;);print $2}'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+From Raspberry at &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;date &lt;span class=&quot;s1&quot;&gt;'+%Y-%m-%d %H:%M:%S'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo chmod 777 /root/ifconfigmail.sh #加可执行权限
 $ sudo sh /root/ifconfigmail.sh #测试脚本能否正常发出邮件
 $ sudo vi /etc/rc.d/rc.local #编辑开机启动脚本
 添加以下内容后保存
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
 sleep 3m &lt;span class=&quot;c&quot;&gt;#延迟3分可以确保IP准确&lt;/span&gt;
 sh /root/ifconfigmail.sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo chmod +x /etc/rc.d/rc.local #加可执行权限
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo chmod +x /etc/rc.d/rc.local #加可执行权限
 $ sudo vi /usr/lib/systemd/system/rc-local.service
 编辑开机启动，末尾添加如下一条
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Install]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Install]
 WantedBy=multi-user.target
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;systemctl enable rc-local.service #开启开机自启动服务
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;systemctl enable rc-local.service #开启开机自启动服务
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;  &lt;strong&gt;* 全文难免有叙述不当之处，见谅。&lt;/strong&gt;&lt;/p&gt;
 </description>
@@ -235,67 +224,218 @@ WantedBy=multi-user.target
       </item>
     
       <item>
-        <title>Fedora入门命令（更新至2015.09.26）</title>
-        <description>&lt;p&gt;&lt;strong&gt;1. 添加sudo&lt;/strong&gt;&lt;/p&gt;
+        <title>Fedora入门命令（更新至2017-10-18）</title>
+        <description>&lt;p&gt;&lt;strong&gt;0. 目录及说明&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;新版本Fedora不一定继续适用
+2015-09-26 更新1-11
+2017-09-19 更新12-22
+2017-10-18 更新23
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 添加sudo&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://blog.deepcontrol.info/linux/2015/05/14/how-to-use-sudo-in-fedora.html&quot;&gt;上篇日志&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;2. 系统更新&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf update #或者dnf update
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf update #或者dnf update
 $ sudo reboot
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;3. 删除旧内核&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ uname -r​ #查看正在使用的内核
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ uname -r​ #查看正在使用的内核
 $ rpm -qa | grep kernel #查找内核包
 $ sudo dnf remove #remove后列出旧内核名称
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;4. 安装gnome shell&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install gnome-tweak-tool
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install gnome-tweak-tool
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;5. 安装其他桌面&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install @mate-desktop #Mate桌面环境
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install @mate-desktop #Mate桌面环境
 $ sudo dnf install @kde-desktop #KDE桌面环境
 $ sudo dnf install @xfce-desktop #XFCE桌面环境
 $ sudo dnf install @lxde-desktop #LXDE桌面环境
 $ sudo dnf install @cinnamon-desktop #Cinnamon桌面环境
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;6. 安装第三方源rpmfusion和VLC播放器&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
 $ sudo dnf install vlc
 $ sudo dnf install mozilla-vlc (optional)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;7. 安装谷歌chrome&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;8. dnf启动断点续传&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ man dnf.conf
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ man dnf.conf
+$ find dnf.conf
 用vi命令在dnf.conf里写入keepcache=true​
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;9. 安装flash&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo rpm -ivh http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo rpm -ivh http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm
 $ sudo rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
 $ ​sudo dnf -y install flash-plugin
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;10. 安装LibreOffice中文语言包&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf -y install  libreoffice-langpack-zh-Han*
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf -y install  libreoffice-langpack-zh-Han*
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;11. Fedora下临时挂载ntfs分区&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo mount -t ntfs /dev/sda* /mnt/FileName
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo mount -t ntfs /dev/sda* /mnt/FileName
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;12. 安装Remmina远程桌面&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;　&lt;code class=&quot;highlighter-rouge&quot;&gt;$ sudo dnf install remmina #控制Windows等主机，支持多种协议&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;13. 升级Fedora到高版本&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;　&lt;code class=&quot;highlighter-rouge&quot;&gt;FedoraProject Wiki中提供的方法:&lt;/code&gt;&lt;a href=&quot;http://fedoraproject.org/wiki/DNF_system_upgrade&quot;&gt;DNF_system_upgrade&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14. Ｍarkdown输入空格&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;　&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;emsp;&lt;/code&gt;或者&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;nbsp;&lt;/code&gt;或者&lt;code class=&quot;highlighter-rouge&quot;&gt;全角空格&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;15. 键盘按键的英文名&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;　逗号：comma
+　句号：period
+　减号：minus
+　等号：equal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;16. Fedora添加全局快捷键&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;设置—&amp;gt;键盘—&amp;gt;下拉到最后—&amp;gt;添加自定义快捷键，填写诸如:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;打开终端&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;/usr/bin/gnome-terminal&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;shift+ctrl+n&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;或者&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;打开文件管理器&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;/usr/bin/nautilus&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;你想设置的快捷键&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;17. 查看终端命令记录history&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ history&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;其中history文件存放在~/.bash_history&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;18. 终端常用命令和快捷键&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.$ tty #查看当前所在终端
+2.$ who #查看当前已登录的用户
+   （$ w #增加显示详细统计信息，tty表示本地用户，pts/表示远程用户）
+3.ctrl+s 终端挂起
+4.ctrl+q 解除挂起
+5.ctrl+l 清屏
+6.ctrl+a 光标移动到本条命令行首
+7.ctrl+e 光标移动到本条命令行尾
+8.ctrl+u 清除光标所在条命令，同时历史记录中也清除
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;19. Fedora修改hostname主机名&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ hostname
+oldhostname
+$ sudo hostname newhostname #新主机名
+$ hostname
+newhostname
+$ echo $HOSTNAME #打印系统环境变量，重启后就会变成新主机名了
+oldhostname
+$ sudo hostnamectl set-hostname newhostname #另一种修改主机名方式
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;20. 从图形界面切换到字符界面&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo systemctl isolate runlevel3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;21. Fedora安装sublime-text (ST暂不支持中文输入)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Install the GPG key:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Select the channel to use:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stable&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dev&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo dnf config-manager --add-repo https://download.sublimetext.com/rpm/dev/x86_64/sublime-text.repo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Update dnf and install Sublime Text&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo dnf install sublime-text
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;22. Fedora使用ss-qt5&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install shadowsocks-qt5 #安装后添加信息
+$ sudo pip install genpac #genpac是pac文件生成工具，原料是gfwlist
+$ touch user-rules.txt
+$ genpac -p &quot;SOCKS5 127.0.0.1:1080&quot; --gfwlist-proxy=&quot;SOCKS5 127.0.0.1:1080&quot; --output=&quot;autoproxy.pac&quot; --gfwlist-url=&quot;https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt&quot; --user-rule-from=&quot;user-rules.txt&quot;
+# 上条命令中端口和文件信息需要自行修改
+file:///home/(user)/vpnPAC/autoproxy.pac #系统设置和firefox填写文件地址
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;23. Fedora server版本安装使用gnome&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf -y groupinstall &quot;Fedora Workstation&quot;
+$ sudo echo &quot;exec /usr/bin/gnome-session&quot; &amp;gt;&amp;gt; ~/.xinitrc
+$ sudo startx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;  &lt;strong&gt;* 本文内容均由网上搜集而来。&lt;/strong&gt;&lt;/p&gt;
 
@@ -317,7 +457,7 @@ $ ​sudo dnf -y install flash-plugin
 
 &lt;p&gt;&lt;strong&gt;2. 普通用户添加sudo&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ su #切换到root用户
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ su #切换到root用户
 # ll /etc/sudoers #查看读写权限
 # chmod 777 /etc/sudoers #修改权限
 # vi /etc/sudoers #编辑文件
@@ -328,8 +468,7 @@ $ ​sudo dnf -y install flash-plugin
 # chmod 440 /etc/sudoers​ #恢复权限
 # exit #退出root
 $ sudo whoami #查看结果
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;  &lt;strong&gt;* 本文内容均由网上搜集而来。&lt;/strong&gt;&lt;/p&gt;
 </description>
@@ -348,7 +487,7 @@ $ sudo whoami #查看结果
 
 &lt;p&gt;  50年代后期，国防院校改名为国防科委院校。先后又有西北工大、成都电讯、南航加入到国防院校的行列，至1963年我国共有八所国防科委院校：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 哈尔滨工业大学（航空、航天）
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 哈尔滨工业大学（航空、航天）
 2. 北京理工大学（导弹 &amp;amp; 坦克）
 3. 北京航空航天大学（飞机 &amp;amp; 导弹）
 4. 上海交通大学（船舶&amp;amp;火车）
@@ -356,8 +495,7 @@ $ sudo whoami #查看结果
 6. 成都电讯工程学院（电子）
 7. 南京航空航天大学（飞机）
 8. 太原机械学院（兵器）
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;  1966年，国防科委院校在上述八大院校的基础上又增加了哈尔滨军事工程学院（哈军工）、西军电（西电）、南炮工（南京理工）。&lt;/p&gt;
 
@@ -365,15 +503,14 @@ $ sudo whoami #查看结果
 
 &lt;p&gt;  1996年，恢复国防科工委院校，只有七所：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.哈尔滨工业大学（航天）
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.哈尔滨工业大学（航天）
 2.哈尔滨工程大学（航海、核能）
 3.北京航空航天大学（航空、航天）
 4.北京理工大学（兵器）
 5.西北工业大学（航空、航天、航海）
 6.南京理工大学（兵器）
 7.南京航空航天大学（航空）       
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;  该七所国防科工委院校全是211工程大学，其中哈工大、北理工、北航、西工大、哈工程是1996年8月前首批27所通过211工程立项审核的大学。1999年哈工大、北理工、北航、西工大陆续进入教育部985工程大学，哈工程、南理工、南航由国防科工委全额资助，按985工程标准建设。&lt;/p&gt;
 
