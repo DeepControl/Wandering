@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fedora入门命令（更新至2017-10-18）
+title: Fedora入门命令（更新至2017-10-27）
 date: 2015-05-14 18:52:27 +08:00
 categories: Linux
 ---
@@ -11,6 +11,7 @@ categories: Linux
     2015-09-26 更新1-11
     2017-09-19 更新12-22
     2017-10-18 更新23
+    2017-10-27 更新24-
 
 **1. 添加sudo**
 
@@ -174,6 +175,8 @@ $ sudo systemctl isolate runlevel3
 **22. Fedora使用ss-qt5**
 
 ```
+查看https://github.com/shadowsocks/shadowsocks-qt5/wiki
+$ sudo dnf copr enable librehat/shadowsocks
 $ sudo dnf install shadowsocks-qt5 #安装后添加信息
 $ sudo pip install genpac #genpac是pac文件生成工具，原料是gfwlist
 $ touch user-rules.txt
@@ -193,6 +196,74 @@ $ sudo dnf -y groupinstall "Fedora Workstation"
 $ sudo echo "exec /usr/bin/gnome-session" >> ~/.xinitrc
 $ sudo startx
 ```
+
+**24. Fedora安装mediainfo**
+
+```
+$ sudo dnf install mediainfo
+```
+
+**25. Fedora安装adb调试android工具**
+
+```
+$ sudo dnf install android-tools
+$ adb devices
+$ adb -d shell sh /data/data/me.piebridge.brevent/brevent.sh
+并安装黑域
+```
+
+**26. Fedora向github添加ssh key**
+
+```
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" #生成rsa文件
+Enter a file in which to save the key (/home/you/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase): [Type a passphrase]
+按照自己的需要修改目录和口令
+$ eval "$(ssh-agent -s)" #启动ssh-agent
+$ ssh-add ~/.ssh/id_rsa #添加rsa到ssh-agent
+登录github，在settings里找到SSH and GPG keys，把id_rsa.pub的内容复制上去并保存。
+$ ssh -T git@github.com #测试
+测试结果及说明https://help.github.com/articles/testing-your-ssh-connection/
+$ git clone git@github.com:*** #Clone with SSH用github的ssh链接进行克隆
+```
+
+**27. Fedora安装miredo实现ipv6协议的teredo隧道**
+
+```
+$ sudo dnf install miredo-client
+$ sudo service miredo-client start
+$ sudo service miredo-client status
+$ ping -6 ipv6.baidu.com
+$ ping6 ipv6.google.com
+```
+
+**28. Fedora安装namp和zenmap**
+
+```
+$ sudo rpm -vhU https://nmap.org/dist/nmap-7.60-1.x86_64.rpm
+$ sudo rpm -vhU https://nmap.org/dist/zenmap-7.60-1.noarch.rpm
+$ nmap 192.168.18.1/28
+$ nmap -Pn 192.168.18.17
+```
+
+**29. Fedora在Firefox中为Complete Youtube Saver配置ffmpeg**
+
+```
+$ sudo dnf install ffmpeg
+在firefox附加组件中安装Complete Youtube Saver
+然后在CYS的首选项中选择ffmpeg目录为/usr/bin即可
+```
+
+**30. git使用操作**
+
+```
+$ git config --global user.email "you@example.com" #填写身份标识
+$ git -C path/repository_name status #检查有没有需要提交的文件
+$ git -C path/repository_name commit -am '***' #星号处填写commit内容
+$ git -C path/repository_name push
+```
+
+
 
 
 &emsp;&emsp;__* 本文内容均由网上搜集而来。__
