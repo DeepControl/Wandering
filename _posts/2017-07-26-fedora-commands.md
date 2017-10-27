@@ -11,7 +11,7 @@ categories: Linux
     2015-09-26 更新1-11
     2017-09-19 更新12-22
     2017-10-18 更新23
-    2017-10-27 更新24-
+    2017-10-27 更新24-31
 
 **1. 添加sudo**
 
@@ -263,7 +263,16 @@ $ git -C path/repository_name commit -am '***' #星号处填写commit内容
 $ git -C path/repository_name push
 ```
 
+**31. Fedora安装wireshark**
 
+```
+$ sudo dnf install wireshark wireshark-qt
+$ sudo groupadd wireshark
+$ groups
+$ sudo usermod -a -G wireshark $(whoami)
+$ more /etc/group | grep wireshark
+注销当前用户重新登陆即可正常使用wireshark
+```
 
 
 &emsp;&emsp;__* 本文内容均由网上搜集而来。__
