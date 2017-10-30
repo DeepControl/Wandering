@@ -19,8 +19,9 @@ Baturu，Living in Tianjin.
 
 
 ![Speedtest](http://beta.speedtest.net/result/6700445401.png "Speedtest")
-![Visitors](https://info.flagcounter.com/zT0v "Visitors")
-![Visitors1](https://s01.flagcounter.com/countxl/zT0v/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0/percent_0/ "Visitors1")
+
+
+![Visitors](https://s01.flagcounter.com/countxl/zT0v/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0/percent_0/ "Visitors")
 
 [新浪微博]: https://weibo.com/GhostPioneer
 [网易云音乐]: https://music.163.com/#/user/home?id=60625289

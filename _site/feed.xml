@@ -5,8 +5,8 @@
     <description>© 2017 Baturu. All rights reserved.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 25 Oct 2017 20:00:55 +0800</pubDate>
-    <lastBuildDate>Wed, 25 Oct 2017 20:00:55 +0800</lastBuildDate>
+    <pubDate>Mon, 30 Oct 2017 23:01:28 +0800</pubDate>
+    <lastBuildDate>Mon, 30 Oct 2017 23:01:28 +0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -155,10 +155,10 @@ class Exp:
 
     #方法
     def func(self):
-
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;12.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -408,13 +408,14 @@ WantedBy=multi-user.target
       </item>
     
       <item>
-        <title>Fedora入门命令（更新至2017-10-18）</title>
+        <title>Fedora入门命令（更新至2017-10-27）</title>
         <description>&lt;p&gt;&lt;strong&gt;0. 目录及说明&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;新版本Fedora不一定继续适用
 2015-09-26 更新1-11
 2017-09-19 更新12-22
 2017-10-18 更新23
+2017-10-27 更新24-31
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;1. 添加sudo&lt;/strong&gt;&lt;/p&gt;
@@ -602,7 +603,9 @@ $ sudo hostnamectl set-hostname newhostname #另一种修改主机名方式
 
 &lt;p&gt;&lt;strong&gt;22. Fedora使用ss-qt5&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install shadowsocks-qt5 #安装后添加信息
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;查看https://github.com/shadowsocks/shadowsocks-qt5/wiki
+$ sudo dnf copr enable librehat/shadowsocks
+$ sudo dnf install shadowsocks-qt5 #安装后添加信息
 $ sudo pip install genpac #genpac是pac文件生成工具，原料是gfwlist
 $ touch user-rules.txt
 $ genpac -p &quot;SOCKS5 127.0.0.1:1080&quot; --gfwlist-proxy=&quot;SOCKS5 127.0.0.1:1080&quot; --output=&quot;autoproxy.pac&quot; --gfwlist-url=&quot;https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt&quot; --user-rule-from=&quot;user-rules.txt&quot;
@@ -619,6 +622,75 @@ file:///home/(user)/vpnPAC/autoproxy.pac #系统设置和firefox填写文件地�
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf -y groupinstall &quot;Fedora Workstation&quot;
 $ sudo echo &quot;exec /usr/bin/gnome-session&quot; &amp;gt;&amp;gt; ~/.xinitrc
 $ sudo startx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;24. Fedora安装mediainfo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install mediainfo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;25. Fedora安装adb调试android工具&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install android-tools
+$ adb devices
+$ adb -d shell sh /data/data/me.piebridge.brevent/brevent.sh
+并安装黑域
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;26. Fedora向github添加ssh key&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot; #生成rsa文件
+Enter a file in which to save the key (/home/you/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase): [Type a passphrase]
+按照自己的需要修改目录和口令
+$ eval &quot;$(ssh-agent -s)&quot; #启动ssh-agent
+$ ssh-add ~/.ssh/id_rsa #添加rsa到ssh-agent
+登录github，在settings里找到SSH and GPG keys，把id_rsa.pub的内容复制上去并保存。
+$ ssh -T git@github.com #测试
+测试结果及说明https://help.github.com/articles/testing-your-ssh-connection/
+$ git clone git@github.com:*** #Clone with SSH用github的ssh链接进行克隆
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;27. Fedora安装miredo实现ipv6协议的teredo隧道&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install miredo-client
+$ sudo service miredo-client start
+$ sudo service miredo-client status
+$ ping -6 ipv6.baidu.com
+$ ping6 ipv6.google.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;28. Fedora安装namp和zenmap&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo rpm -vhU https://nmap.org/dist/nmap-7.60-1.x86_64.rpm
+$ sudo rpm -vhU https://nmap.org/dist/zenmap-7.60-1.noarch.rpm
+$ nmap 192.168.18.1/28
+$ nmap -Pn 192.168.18.17
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;29. Fedora在Firefox中为Complete Youtube Saver配置ffmpeg&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install ffmpeg
+在firefox附加组件中安装Complete Youtube Saver
+然后在CYS的首选项中选择ffmpeg目录为/usr/bin即可
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;30. git使用操作&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git config --global user.email &quot;you@example.com&quot; #填写身份标识
+$ git -C path/repository_name status #检查有没有需要提交的文件
+$ git -C path/repository_name commit -am '***' #星号处填写commit内容
+$ git -C path/repository_name push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;31. Fedora安装wireshark&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo dnf install wireshark wireshark-qt
+$ sudo groupadd wireshark
+$ groups
+$ sudo usermod -a -G wireshark $(whoami)
+$ more /etc/group | grep wireshark
+注销当前用户重新登陆即可正常使用wireshark
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;  &lt;strong&gt;* 本文内容均由网上搜集而来。&lt;/strong&gt;&lt;/p&gt;
