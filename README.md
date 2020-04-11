@@ -6,4 +6,4 @@
 ###
 - Based on jekyll and github pages.
 
-[blog]: http://blog.ibaturu.xyz/
+[blog]: http://note.ibaturu.xyz/
