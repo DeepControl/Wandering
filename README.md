@@ -6,4 +6,4 @@
 ###
 - Based on jekyll and github pages.
 
-[blog]: http://blog.deepcontrol.info/
+[blog]: http://blog.ibaturu.xyz/
